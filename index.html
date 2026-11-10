@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="The Love Laboratory: An experimental relationship compatibility simulator 
+    powered by questionable science and cosmic interference.">
+
+  <title>The Love Laboratory | Experimental Romance Division</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+
+  <header class="site-header">
+    <nav class="navbar">
+
+      <a href="#home" class="logo">
+        <span class="logo-icon">♡</span>
+        <span>THE LOVE LABORATORY</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experiment">Experiment</a>
+        <a href="#results">Results</a>
+      </div>
+
+      <span class="lab-status">
+        <span class="status-dot"></span>
+        LABORATORY ONLINE
+      </span>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO SECTION -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          DEPARTMENT OF EXPERIMENTAL ROMANCE
+        </p>
+
+        <h1>
+          LOVE IS A SCIENCE.
+          <span class="accent-text">
+            PROBABLY.
+          </span>
+        </h1>
+
+        <p class="hero-description">
+          Welcome to The Love Laboratory, where we combine
+          questionable mathematics, ancient astrology,
+          cosmic interference, and wildly unqualified
+          relationship advice to determine your romantic fate.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#experiment" class="btn btn-primary">
+            BEGIN EXPERIMENT
+          </a>
+
+          <a href="#about" class="btn btn-secondary">
+            HOW IT WORKS
+          </a>
+        </div>
+
+        <p class="hero-disclaimer">
+          * Results are scientifically unverified.
+          Emotional damage is not covered by our warranty.
+        </p>
+
+      </div>
+
+      <div class="hero-visual">
+
+        <div class="heart-container">
+          <div class="heart-orbit orbit-one"></div>
+          <div class="heart-orbit orbit-two"></div>
+          <div class="heart-orbit orbit-three"></div>
+
+          <div class="main-heart">♥</div>
+        </div>
+
+        <div class="floating-label label-one">
+          CHEMISTRY: UNKNOWN
+        </div>
+
+        <div class="floating-label label-two">
+          COSMIC STABILITY: UNVERIFIED
+        </div>
+
+        <div class="floating-label label-three">
+          ROMANTIC RISK: PENDING
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">OUR METHODOLOGY</p>
+
+        <h2>
+          FOUR EXPERIMENTS.
+          <span class="accent-text">
+            ONE QUESTIONABLE ANSWER.
+          </span>
+        </h2>
+
+        <p>
+          Our highly sophisticated system consults multiple
+          independent sources of romantic misinformation.
+          Each experiment contributes to your final
+          compatibility assessment.
+        </p>
+      </div>
+
+      <div class="method-grid">
+
+        <article class="method-card">
+          <span class="method-number">01</span>
+          <div class="method-icon">♡</div>
+
+          <h3>Name Chemistry</h3>
+
+          <p>
+            We submit your names to an advanced compatibility
+            algorithm and pretend the resulting percentage
+            has scientific significance.
+          </p>
+
+          <span class="method-tag">
+            LOVE CALCULATOR API
+          </span>
+        </article>
+
+
+        <article class="method-card">
+          <span class="method-number">02</span>
+          <div class="method-icon">☯</div>
+
+          <h3>Cosmic Alignment</h3>
+
+          <p>
+            Ancient Chinese zodiac traditions evaluate
+            whether the universe approves of your
+            relationship.
+          </p>
+
+          <span class="method-tag">
+            CHINESE ZODIAC API
+          </span>
+        </article>
+
+
+        <article class="method-card">
+          <span class="method-number">03</span>
+          <div class="method-icon">✧</div>
+
+          <h3>Tarot Intervention</h3>
+
+          <p>
+            Randomly selected tarot cards reveal what
+            the universe allegedly has planned for
+            your romantic future.
+          </p>
+
+          <span class="method-tag">
+            TAROT API
+          </span>
+        </article>
+
+
+        <article class="method-card">
+          <span class="method-number">04</span>
+          <div class="method-icon">⚠</div>
+
+          <h3>Unsolicited Advice</h3>
+
+          <p>
+            Our relationship advisory department delivers
+            wisdom that may be completely unrelated
+            to your actual circumstances.
+          </p>
+
+          <span class="method-tag">
+            ADVICE SLIP API
+          </span>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIMENT SECTION -->
+
+    <section id="experiment" class="experiment-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">
+          EXPERIMENT NO. 001
+        </p>
+
+        <h2>
+          SUBMIT YOUR
+          <span class="accent-text">
+            TEST SUBJECTS.
+          </span>
+        </h2>
+
+        <p>
+          Please provide the following information.
+          Our laboratory will handle the rest.
+        </p>
+      </div>
+
+
+      <div class="experiment-container">
+
+        <div class="experiment-header">
+
+          <span>
+            ROMANTIC COMPATIBILITY ASSESSMENT
+          </span>
+
+          <span class="experiment-id">
+            CASE FILE #0001
+          </span>
+
+        </div>
+
+
+        <form id="love-form">
+
+          <div class="subjects-grid">
+
+            <!-- SUBJECT A -->
+
+            <fieldset class="subject-card">
+
+              <legend>
+                TEST SUBJECT A
+              </legend>
+
+              <div class="subject-avatar">
+                A
+              </div>
+
+              <div class="form-group">
+                <label for="name1">
+                  FULL NAME
+                </label>
+
+                <input
+                  type="text"
+                  id="name1"
+                  name="name1"
+                  placeholder="Enter first name"
+                  maxlength="60"
+                  autocomplete="off"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="birth1">
+                  DATE OF BIRTH
+                </label>
+
+                <input
+                  type="date"
+                  id="birth1"
+                  name="birth1"
+                  required>
+              </div>
+
+            </fieldset>
+
+
+            <div class="subject-connector">
+              <span>+</span>
+            </div>
+
+
+            <!-- SUBJECT B -->
+
+            <fieldset class="subject-card">
+
+              <legend>
+                TEST SUBJECT B
+              </legend>
+
+              <div class="subject-avatar">
+                B
+              </div>
+
+              <div class="form-group">
+                <label for="name2">
+                  FULL NAME
+                </label>
+
+                <input
+                  type="text"
+                  id="name2"
+                  name="name2"
+                  placeholder="Enter second name"
+                  maxlength="60"
+                  autocomplete="off"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="birth2">
+                  DATE OF BIRTH
+                </label>
+
+                <input
+                  type="date"
+                  id="birth2"
+                  name="birth2"
+                  required>
+              </div>
+
+            </fieldset>
+
+          </div>
+
+
+          <div class="experiment-footer">
+
+            <p>
+              By proceeding, you acknowledge that
+              our laboratory has absolutely no
+              qualifications in relationship counselling.
+            </p>
+
+            <button
+              type="submit"
+              id="calculate-btn"
+              class="btn btn-primary">
+
+              INITIATE LOVE EXPERIMENT
+
+            </button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- LOADING SCREEN -->
+
+    <section
+      id="loading-section"
+      class="loading-section"
+      hidden
+      aria-live="polite">
+
+      <div class="loading-content">
+
+        <div class="loading-heart">
+          ♥
+        </div>
+
+        <h2>
+          ANALYSING ROMANTIC STABILITY...
+        </h2>
+
+        <p id="loading-message">
+          Consulting highly questionable scientific sources.
+        </p>
+
+        <div class="loading-bar">
+          <div
+            id="loading-progress"
+            class="loading-progress">
+          </div>
+        </div>
+
+        <p class="loading-disclaimer">
+          Please remain emotionally available.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- RESULTS SECTION -->
+
+    <section
+      id="results"
+      class="results-section"
+      hidden>
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          CONFIDENTIAL LABORATORY REPORT
+        </p>
+
+        <h2>
+          YOUR RESULTS
+          <span class="accent-text">
+            ARE IN.
+          </span>
+        </h2>
+
+        <p id="couple-names">
+          Subject A + Subject B
+        </p>
+
+      </div>
+
+
+      <!-- FINAL COMPATIBILITY SCORE -->
+
+      <div class="final-score-card">
+
+        <div class="score-header">
+          <span>OVERALL COMPATIBILITY</span>
+          <span>EXPERIMENT COMPLETE</span>
+        </div>
+
+        <div class="score-display">
+
+          <div class="score-circle">
+            <span id="final-score">--</span>
+            <span class="score-percent">%</span>
+          </div>
+
+          <div class="score-information">
+
+            <p class="eyebrow">
+              OFFICIAL LABORATORY VERDICT
+            </p>
+
+            <h3 id="verdict-title">
+              AWAITING CLASSIFICATION
+            </h3>
+
+            <p id="verdict-description">
+              Your relationship assessment will appear here.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- INDIVIDUAL EXPERIMENT RESULTS -->
+
+      <div class="results-heading">
+
+        <h3>
+          EXPERIMENT BREAKDOWN
+        </h3>
+
+        <p>
+          Four departments. Four questionable conclusions.
+        </p>
+
+      </div>
+
+
+      <div class="results-grid">
+
+        <!-- NAME COMPATIBILITY -->
+
+        <article
+          class="result-card"
+          id="name-result-card">
+
+          <div class="result-card-header">
+            <span>EXPERIMENT 01</span>
+            <span>♡</span>
+          </div>
+
+          <h3>Name Chemistry</h3>
+
+          <div class="result-value">
+            <span id="name-score">--</span>%
+          </div>
+
+          <div class="result-meter">
+            <div
+              id="name-meter"
+              class="result-meter-fill">
+            </div>
+          </div>
+
+          <p id="name-description">
+            Awaiting chemical analysis.
+          </p>
+
+          <span class="result-source">
+            LOVE CALCULATOR
+          </span>
+
+        </article>
+
+
+        <!-- ZODIAC COMPATIBILITY -->
+
+        <article
+          class="result-card"
+          id="zodiac-result-card">
+
+          <div class="result-card-header">
+            <span>EXPERIMENT 02</span>
+            <span>☯</span>
+          </div>
+
+          <h3>Cosmic Alignment</h3>
+
+          <div class="zodiac-pair">
+
+            <div class="zodiac-person">
+              <span id="zodiac-animal1">?</span>
+              <small>SUBJECT A</small>
+            </div>
+
+            <span class="zodiac-divider">×</span>
+
+            <div class="zodiac-person">
+              <span id="zodiac-animal2">?</span>
+              <small>SUBJECT B</small>
+            </div>
+
+          </div>
+
+          <div class="result-value">
+            <span id="zodiac-score">--</span>
+          </div>
+
+          <p id="zodiac-description">
+            The cosmos has not submitted its findings.
+          </p>
+
+          <span class="result-source">
+            CHINESE ZODIAC 
+          </span>
+
+        </article>
+
+
+        <!-- TAROT -->
+
+        <article
+          class="result-card tarot-result-card"
+          id="tarot-result-card">
+
+          <div class="result-card-header">
+            <span>EXPERIMENT 03</span>
+            <span>✧</span>
+          </div>
+
+          <h3>Tarot Intervention</h3>
+
+          <div class="tarot-card-display">
+
+            <div
+              id="tarot-card"
+              class="tarot-card">
+
+              <div class="tarot-card-inner">
+
+                <div class="tarot-card-back">
+                  <span>✧</span>
+                  <p>THE UNIVERSE</p>
+                </div>
+
+                <div class="tarot-card-front">
+                  <span id="tarot-symbol">✦</span>
+
+                  <h4 id="tarot-name">
+                    UNKNOWN
+                  </h4>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button
+            type="button"
+            id="reveal-tarot-btn"
+            class="btn btn-secondary">
+
+            REVEAL YOUR CARD
+
+          </button>
+
+          <p id="tarot-description">
+            Your romantic fate remains concealed.
+          </p>
+
+          <span class="result-source">
+            TAROT API
+          </span>
+
+        </article>
+
+
+        <!-- ADVICE -->
+
+        <article
+          class="result-card advice-result-card"
+          id="advice-result-card">
+
+          <div class="result-card-header">
+            <span>EXPERIMENT 04</span>
+            <span>⚠</span>
+          </div>
+
+          <h3>Unsolicited Advice</h3>
+
+          <div class="advice-content">
+
+            <span class="quote-mark">“</span>
+
+            <blockquote id="advice-text">
+              The universe is currently unavailable
+              for comment.
+            </blockquote>
+
+          </div>
+
+          <button
+            type="button"
+            id="new-advice-btn"
+            class="btn btn-secondary">
+
+            REQUEST MORE ADVICE
+
+          </button>
+
+          <span class="result-source">
+            ADVICE SLIP
+          </span>
+
+        </article>
+
+      </div>
+
+
+      <!-- SCIENTIFIC DISAGREEMENT -->
+
+      <div class="uncertainty-card">
+
+        <div class="uncertainty-content">
+
+          <p class="eyebrow">
+            SCIENTIFIC CONSENSUS REPORT
+          </p>
+
+          <h3>
+            THE UNIVERSE DISAGREEMENT INDEX
+          </h3>
+
+          <p>
+            Our laboratory measures the disagreement
+            between independent compatibility systems.
+            Greater disagreement suggests that the
+            universe has absolutely no idea what
+            it is doing.
+          </p>
+
+        </div>
+
+        <div class="uncertainty-score">
+          <span id="uncertainty-value">--</span>
+          <small>DISAGREEMENT LEVEL</small>
+        </div>
+
+      </div>
+
+
+      <!-- FINAL REPORT -->
+
+      <div class="report-card">
+
+        <p class="eyebrow">
+          FINAL DEPARTMENTAL ASSESSMENT
+        </p>
+
+        <h3 id="report-title">
+          RELATIONSHIP STATUS: UNDETERMINED
+        </h3>
+
+        <p id="report-description">
+          The laboratory is preparing its final conclusion.
+        </p>
+
+        <div class="report-stamp">
+          OFFICIALLY UNVERIFIED
+        </div>
+
+      </div>
+
+
+      <!-- RETAKE EXPERIMENT -->
+
+      <div class="restart-container">
+
+        <button
+          type="button"
+          id="restart-btn"
+          class="btn btn-primary">
+
+          TEST ANOTHER RELATIONSHIP
+
+        </button>
+
+        <p>
+          Unlimited experiments.
+          Limited scientific credibility.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+
+    <div class="footer-content">
+
+      <div class="footer-brand">
+        <h3>THE LOVE LABORATORY ♡</h3>
+
+        <p>
+          Advancing the field of experimental romance
+          through questionable data analysis.
+        </p>
+      </div>
+
+      <div class="footer-info">
+
+        <p>
+          DATA SOURCES
+        </p>
+
+        <a
+          href="https://calculator.free/love/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Love Calculator
+        </a>
+
+        <a
+          href="https://fengshui-api.com/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Feng Shui API
+        </a>
+
+        <a
+          href="https://tarotapi.dev/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Tarot API
+        </a>
+
+        <a
+          href="https://api.adviceslip.com/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Advice Slip
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 The Love Laboratory
+      </p>
+
+      <p>
+        For entertainment purposes only.
+        Not actual relationship science.
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
